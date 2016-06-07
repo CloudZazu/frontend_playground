@@ -1,0 +1,40 @@
+* {
+   <!outline: 1px solid red !important>
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+.background{
+	background-color: #33BEBE;
+	min-height: 1.25in;
+	position: relative;
+}
+.title{
+		opacity: 0.8;
+		text-align: left;
+		padding-left: 20px;
+		font-family: Helvetica;
+		color: white;
+		position: absolute;
+		bottom: 0;
+}
+.app{
+	display: -webkit-flex; /*Adds on Safari support*/
+	display : flex;
+}
+.description{
+	padding-left: 20px;
+	color : #7C8B88;
+	max-width: 705px;
+	font-family: Lucida Console;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.screenshot{
+	max-width: 460px;
+}
